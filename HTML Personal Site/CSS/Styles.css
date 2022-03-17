@@ -1,0 +1,21 @@
+body {
+  background-color: #EAF6F6;
+}
+
+hr.type_3 {
+  border: 0;
+  height: 25px;
+  background-image: url(https://www.formget.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2014/12/type_3.png.webp);
+  background-repeat: no-repeat;
+}
+hr.type_3:hover{
+  filter: invert(100%);
+}
+h1,h3{
+  color: #66BFBF
+}
+img {
+  border-radius: 50%;
+  float:left;
+  margin-right: 15px;
+}
