@@ -1,0 +1,59 @@
+body {
+  background-color: #1C658C;
+    margin: 0px;
+  text-align: center;
+  font-family: "Montserrat", serif;
+}
+
+hr.type_3 {
+  border: 0;
+  height: 50px;
+  background-image: url(https://www.formget.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2014/12/type_3.png.webp);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  position: absolute;
+  margin: auto;
+}
+
+hr.type_3:hover{
+  filter: invert(100%);
+}
+
+h1 {
+  margin: 0 auto 0 auto;
+  font-family: "Hurricane", cursive;
+}
+
+h2 {
+  font-family: 'Smooch Sans', sans-serif;
+}
+
+h3 {
+  font-family: 'Smooch Sans', sans-serif;
+}
+
+
+.top-container {
+  background-color: #BFFFF0;
+  margin-bottom: 1000px solid #1C658C;
+  position: relative;
+  padding-top: 120px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  bottom: 307px;
+  left: 350px;
+}
+
+#profile-picture{
+  border-radius: 50%;
+  height: 180px;
+  width: 180px;
+}
