@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>ð¥Roy's Personal Website!ð¥</title>
+</head>
+
+<body>
+  <img src="Roy Meir Profile Picture.jpg" alt="Roy Meir Profile Picture" height="200" width="200">
+  <h1>Roy Meir</h1>
+  <p><em>CS & Entrepreneurship Studen at <a href="https://www.idc.ac.il/"><strong>Reichman University.</strong></a></em></p>
+  <p>I am 25 and am learning how to develop web applications for my new job.</p>
+  <hr size="3" , color=grey>
+  <h3><b>Education:</b><br></h3>
+  <h4><i>Reichman University<br>
+      Atid Lod Highschool </i></h4>
+  <h3>List</h3>
+  <ul>
+    <li>Whatever</li>
+    <li>You</li>
+    <li>Wanna</li>
+    <li>Write</li>
+  </ul>
+  <a href="hobbies.html">
+    <h3>My Hobbies</h3>
+  </a>
+  <h3>Skills</h3>
+  <table>
+    <tr>
+      <td>Java OOP Programming</td>
+      <td>⭐⭐⭐</td>
+      <td>Problem Solving</td>
+      <td>⭐⭐⭐⭐</td>
+    </tr>
+    <tr>
+      <td>Leadership</td>
+      <td>⭐⭐⭐⭐⭐</td>
+      <td>Verbal Communication</td>
+      <td>⭐⭐⭐⭐</td>
+    </tr>
+  </table><br><br>
+
+  <section id="contactSection">
+    <!--This is the contact form section of the site-->
+    <div class="card rounded-3">
+      <div class="card-body">
+        <form id="contact" onsubmit="mail(event)" method="post">
+
+          <label for="email">Email</label>
+          <input type="text" id="email" name="email" placeholder="name@example.com" required>
+
+          <label for="subject">Subject</label>
+          <input type="text" id="subject" name="subject" placeholder="What do you wanna talk about?" required>
+
+          <label for="message">message</label>
+          <textarea id="message" name="message" placeholder="Write me a message" style="height:100px" required></textarea>
+
+          <label for="time">time</label>
+          <input type="time" id="time" name="time" value="">
+
+          <input type="submit" value="Email Me!">
+        </form>
+      </div>
+    </div>
+  </section>
+
+</body>
+<footer id="bottom">
+  <!--This is the bottom tool-bar section-->
+  <nav class="navbar fixed-bottom navbar-expand" style="background-color: #3600ca;">
+    <div class="container-fluid">
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup container" style="column-gap: normal;">
+        <div class="navbar-nav mx-auto" style="float: left;">
+          <h3>
+            <font face="verdana" size="4px" color="#900C3F">Contact Info</font>
+          </h3>
+          <a class="nav-link" href="https://www.linkedin.com/in/roy-meir-5061681ba/" target="blank"><img img class="rounded" src="Photos/linkedin.png" alt="Linkedin" style="max-height: 30px;"></a>
+          <a class="nav-link" href="https://www.facebook.com/roy.meir.7" target="blank"><img class="rounded" src="Photos/Facebook.png" alt="Facebook" style="max-height: 30px;"></a>
+          <a class="nav-link" href="https://www.instagram.com/roy_meir1/" target="blank"><img class="rounded" src="Photos/instagram.png" alt="Instagram" style="max-height: 30px;"></a>
+          <a class="nav-link" href="https://api.whatsapp.com/send?phone=972549575858&text=Pretty%20cool%20website%20man!" target="blank"><img class="rounded" src="Photos/WhatsApp.png" alt="Whatsapp" style="max-height: 30px;"></a>
+        </div>
+      </div>
+    </div>
+  </nav>
+</footer>
+
+</html>
